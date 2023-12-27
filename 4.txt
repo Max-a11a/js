@@ -1,0 +1,19 @@
+console.log("#4" );
+let credits=23580;
+const priceperdroid=3000;
+let drones=promt('яку кількість дронів ви хочите купити');
+if(drones===null){
+    console.log(скасовано користувачем);
+
+}
+else{
+    drones=Number(drones);
+    const totalprice= drones*priceperdroid;
+    if(totalprice>credits){
+        console.log('недостатньо коштів на рахунку');
+    }
+    else{
+        credits=credits-totalprice;
+        console.log('ви купили',drones,'дроїдів на рахунку залишилося',credits,'кредитів')
+    }
+}
