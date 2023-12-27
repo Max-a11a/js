@@ -1,0 +1,16 @@
+console.log("#6");
+let total=0;
+while(true){
+    let userInput=prompt('введіть число');
+    if(userImput===null){
+        break;
+    }
+    let number=parseFloat(userImput)
+    if(!isNaN(number)){
+        total+=number;
+    }
+}
+else{
+    alter('будь ласка,введіть коректне число');
+}
+alert('загальна сума чисел дорівнює${total}')
