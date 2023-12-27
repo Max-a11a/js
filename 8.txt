@@ -1,0 +1,8 @@
+console.log("#8");
+const fruits=['apple','plum','pear','orange','banana']
+const firstTwoels=fruits.slice(0,2);
+const nonextremels=fruits.slice(1,-1);
+const nonextremels=fruits.slice(-3);
+console.log('firsttwoels:'firstTwoels);
+console.log('nonextremels:',nonextremels);
+console.log('lastthreeels');
