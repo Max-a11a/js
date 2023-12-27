@@ -1,0 +1,13 @@
+console.log("#3")
+const ADMIN_password=prompt('Будь ласка,введіть пароль');
+let message;
+if(userpasswor==null){
+    message='скасовано користувачем';
+}
+else if(userpasswor==ADMIN_PASSWORD){
+    message='ласкаво просимо';
+}
+else{
+    message='доступ заборонений,невірний пароль';
+}
+alert(message);
