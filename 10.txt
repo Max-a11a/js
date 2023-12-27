@@ -1,0 +1,16 @@
+console.log("#10");
+const formatstring=function(string){
+    if(string.lenght<=40){
+        return string;
+    }
+    else{
+        return string.slice(0,40+'....');
+    }
+};
+console.log(formatstring('Curabitur ligula sapien,tincidunt non.'));
+console.log(formatstring('Vestibulm facilisis,purus nec pulvinar iaculis'));
+console.log(formatstring('Curabitur ligula sapien'));
+console.log(
+    formatstring('nuns sed turpils.Curabitur a felis in nuns fringilla tristique
+    ')
+);
