@@ -1,0 +1,20 @@
+console.log("#7");
+funktion checkStorage(available,ordered){
+    let message;
+    if(ordered===0){
+        message="у замовлені немає товарів";
+    }
+    else if(ordered>available{
+        message="ваше замовлення занадто велике на складі недостатньо товарів";
+
+    }
+    else{
+        message="замовлення прийнято наш менеджер звяжиться з вами";
+
+    })
+    return message
+}
+let availableQuantity=20;
+let orderedQuntity=15;
+let resultMessage=checkStorage(availableQuantity,orderedQuntity);
+consol.log(resultMessage);
